@@ -17,3 +17,13 @@ functions:
 plugins:
   - serverless-offline
   - serverless-python-requirements
+
+package:
+  patterns:
+    - "!node_modules/**"
+    - "!venv"
+    - "!package.json"
+    - "!package-lock.json"
+    - "README.md"
+    - ".gitignore"
+    - "serverless.yml"
