@@ -4,6 +4,7 @@
 
 This Python-based AWS Lambda function dynamically generates placeholder images based on specified dimensions. The dimensions are provided through a URL parameter in the format **`/{width}x{height}`**, for example, **`/300x100`**. The generated image contains the dimensions as text, centered within the image.
 
+## **Example**
 ![300x120](https://github.com/lucasayb/lucasyamamoto.placeholder-generator/assets/17356081/642fb193-8adb-4d48-8fc6-597f99677215)
 
 ## **Features**
