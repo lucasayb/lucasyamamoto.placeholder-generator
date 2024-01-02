@@ -20,10 +20,11 @@ plugins:
 
 package:
   patterns:
+    - "!__pycache__"
     - "!node_modules/**"
     - "!venv"
     - "!package.json"
-    - "!package-lock.json"
+    - "!yarn.lock"
     - "README.md"
     - ".gitignore"
     - "serverless.yml"
