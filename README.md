@@ -12,7 +12,8 @@ This Python-based AWS Lambda function dynamically generates placeholder images b
 
 ## **Requirements**
 
-- Python environment with PIL (Python Imaging Library).
+- Python >= 3.9
+- Node >= 18.12.0
 - AWS Lambda for hosting and executing the function.
 - The 'serverless' framework for deployment and offline debugging.
 
