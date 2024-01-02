@@ -16,3 +16,4 @@ functions:
           method: get
 plugins:
   - serverless-offline
+  - serverless-python-requirements
